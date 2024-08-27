@@ -345,23 +345,27 @@ body {
 }
 .form-link {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .form-link .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
     color: #fff;
-    background-color: #007bff;
+    background-color: #28a745; /* لون أخضر مميز */
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .form-link .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* لون أخضر داكن عند التحويم */
+    transform: scale(1.05); /* تكبير الزر قليلاً عند التحويم */
 }
+
 
 .quiz-container {
     background-color: #fff;
